@@ -1,19 +1,22 @@
 .Editor {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  margin: 5px;
+  margin-bottom: 15px;
 }
-.Editor >input{
-    flex:1;
-    font-size: 14px;
-    padding: 15px;
-    border: 1px solid rgb(220, 220, 220);
-
+.Editor > input {
+  flex: 1;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px;
 }
-.Editor >button{
-    width: 50px;
-    background-color: rgb(37, 147, 225);
-    color: white;
-    font-size: 14px;
-    border: none;
-    
+.Editor > button {
+  width: 50px;
+  background-color: none;
+  font-size: 24px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
 }

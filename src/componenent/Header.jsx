@@ -1,14 +1,14 @@
-import './Header.css'
-const Header = ()=>{
+import "./Header.css";
+const Header = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
 
-    const date = new Date()
-    const year = date.getFullYear()
-    const month = date.getMonth()
-    const day = date.getDay()
-
-    return <div className="Header">
-        <h3>오늘은 🗓️ </h3>
-        <h1>{`${year}년 ${month}월 ${day}일`}</h1>
+  return (
+    <div className="Header">
+      <span>{`오늘은, ${year}년 ${month}월 ${day}일`}</span>
     </div>
-}
-export default Header 
+  );
+};
+export default Header;
