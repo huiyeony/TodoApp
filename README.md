@@ -4,6 +4,8 @@
 
 ## 📸 데모
 
+<img src="/public/todo1.png" width="300" height=auto />
+
 ![screenshot](/public/todo1.png)
 ![screenshot](/public/todo2.png)
 
